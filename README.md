@@ -81,4 +81,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 =======
 # laravel-desde-cero
 Proyecto finalizado del curso Laravel desde cero.
+<<<<<<< HEAD
 >>>>>>> 523f41a8905f46664a090f131f65e1d90ff99136
+=======
+Rodrigo Tamay Moo
+>>>>>>> e3b0e3038b7c68bf27ef90c8cb66cbb63031af12
