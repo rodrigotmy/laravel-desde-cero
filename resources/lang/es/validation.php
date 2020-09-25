@@ -181,6 +181,7 @@ return [
         'title'                 => 'título',
         'username'              => 'usuario',
         'year'                  => 'año',
-        'fullname'              => 'nombre completo',
+        'image'                 => 'imagen',
+        'category_id'           => 'categoría',
     ],
 ];

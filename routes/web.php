@@ -1,5 +1,9 @@
 <?php
 
+// DB::listen(function($query) {
+// 	var_dump($query->sql);
+// });
+
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home') -> name('home');
@@ -28,6 +32,7 @@ Route::resource('musica', 'MusicController')
 // Route::get('/musica/{music}', 'MusicController@show')->name('musics.show');
 // Route::delete('/musica/{music}', 'MusicController@destroy')->name('musics.destroy');
 
+Route::get('categorias/{category}', 'CategoryController@show')->name('categories.show');
 
 Route::get('/contacto', 'ContactController@index') -> name('contact.index');
 Route::post('/contacto', 'MessageController@store') -> name('message.store');

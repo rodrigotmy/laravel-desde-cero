@@ -1,5 +1,5 @@
-<nav class="navbar navbar-light navbar-expand-lg bg-white shadow-sm bg-nav">
-	<div class="container bg-white">
+<nav class="navbar navbar-light navbar-expand-lg bg-white shadow-sm">
+	<div class="container">
 		<a class="navbar-brand" href="{{ route('home') }}">
 			{{ config('app.name') }}
 		</a>
@@ -7,7 +7,7 @@
 	        <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="nav nav-pills">
+			<ul class="nav nav-pills ml-auto">
 				<li class="nav-item"><a class="nav-link {{ setActive('home') }}" href="{{ route('home') }}">{{ __('Home') }}</a></li>
 				<li class="nav-item"><a class="nav-link {{ setActive('projects.*') }}" href="{{route('projects.index')}}">{{ __('Portfolio') }}</a></li>
 				{{-- <li class="nav-item"><a class="nav-link {{ setActive('musics.index') }}" href="{{route('musics.index')}}">Musics</a></li> --}}

@@ -3,6 +3,7 @@
 @extends('layout')
 
 @section('content')
+<div class="container">
 	<h1>Music</h1>
 	<a href="{{ route('musics.create') }}">Agregar genero</a>
 	<ul>
@@ -13,4 +14,5 @@
 		@endforelse
 		{{-- {{ $projectMusics ?? ''->links() }} --}}
 	</ul>
+</div>
 @endsection
